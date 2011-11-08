@@ -25,7 +25,16 @@
         <Class IRI="#Amarilla"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Anacardiaceae"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Anaranjada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anonnaceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apocynaceae"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Arbol"/>
@@ -34,10 +43,16 @@
         <Class IRI="#BifolioladaTipo"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Bignonaceae"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BipinnadaTipo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Blanca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bombacaceae"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Caracteristica"/>
@@ -71,11 +86,20 @@
     </Declaration>
     <Declaration>
         <Class IRI="#EstructuraAccesoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Euphorbaceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fabaceae"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Familia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Flacurtiaceae"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Flor"/>
     </Declaration>
     <Declaration>
@@ -92,6 +116,24 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Incolora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lauraceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lecythidaceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meliaceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Melostomataceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mirtaceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moraceae"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Nervadura"/>
@@ -124,6 +166,12 @@
         <Class IRI="#Roja"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Rubiaceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rutaceae"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sarcillos"/>
     </Declaration>
     <Declaration>
@@ -134,6 +182,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SimpleTipo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sterculiaceae"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TIpoDentado"/>
@@ -152,6 +203,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#TipoDeFruto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TipoDicarpos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TipoDrupa"/>
@@ -199,6 +253,45 @@
         <Class IRI="#TrifolioladaTipo"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#Es"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsBorde"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsEstructura"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsFamilia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsFruto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsHoja"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsMiembro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsNervadura"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsParte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsPosicion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EsTipo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tiene"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#TieneBorde"/>
     </Declaration>
     <Declaration>
@@ -214,22 +307,330 @@
         <ObjectProperty IRI="#TieneHoja"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#TieneNervadura"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#TieneParte"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#TienePosicion"/>
     </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TieneTipo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BordeEntero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estipula1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flor1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fruta1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hoja1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HojaSimple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Opuesta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planta1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Planta2"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Anacardiaceae"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Arbol"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#Tiene"/>
+                <Class IRI="#Olor"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneFruto"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#TipoDrupa"/>
+                        <Class IRI="#TipoNuez"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneHoja"/>
+                    <Class IRI="#PosicionAlternas"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneHoja"/>
+                    <Class IRI="#SimpleTipo"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Anonnaceae"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Arbol"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#Tiene"/>
+                <Class IRI="#Olor"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneFruto"/>
+                    <ObjectUnionOf>
+                        <Class IRI="#TipoDicarpos"/>
+                        <Class IRI="#TipoMonocarpos"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneHoja"/>
+                    <Class IRI="#SimpleTipo"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TienePosicion"/>
+                    <Class IRI="#PosicionAlternas"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fabaceae"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Arbol"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <Class IRI="#Estipula"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneBorde"/>
+                    <Class IRI="#TIpoEntero"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneHoja"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#CompuestasTipo"/>
+                        <ObjectComplementOf>
+                            <Class IRI="#DigitadaTipo"/>
+                        </ObjectComplementOf>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TienePosicion"/>
+                    <Class IRI="#PosicionAlternas"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Melostomataceae"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Arbol"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneBorde"/>
+                    <Class IRI="#TipodeBorde"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneHoja"/>
+                    <Class IRI="#SimpleTipo"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneNervadura"/>
+                    <Class IRI="#TipoEscaleriforme"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rubiaceae"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Arbol"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneBorde"/>
+                    <Class IRI="#TIpoEntero"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TieneHoja"/>
+                    <Class IRI="#SimpleTipo"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#TienePosicion"/>
+                    <Class IRI="#PosicionOpuestas"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Amarilla"/>
         <Class IRI="#Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anacardiaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anacardiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Tiene"/>
+            <Class IRI="#Olor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anacardiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneFruto"/>
+                <ObjectUnionOf>
+                    <Class IRI="#TipoDrupa"/>
+                    <Class IRI="#TipoNuez"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anacardiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneHoja"/>
+                <Class IRI="#TipodeHoja"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anacardiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TienePosicion"/>
+                <Class IRI="#PosicionAlternas"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Anaranjada"/>
         <Class IRI="#Color"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Anonnaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anonnaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Tiene"/>
+            <Class IRI="#Olor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anonnaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneFruto"/>
+                <ObjectUnionOf>
+                    <Class IRI="#TipoDicarpos"/>
+                    <Class IRI="#TipoMonocarpos"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anonnaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneHoja"/>
+                <Class IRI="#SimpleTipo"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anonnaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TienePosicion"/>
+                <Class IRI="#PosicionAlternas"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apocynaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arbol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <Class IRI="#Flor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arbol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <Class IRI="#Fruto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arbol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <Class IRI="#Hoja"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BifolioladaTipo"/>
         <Class IRI="#CompuestasTipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bignonaceae"/>
+        <Class IRI="#Arbol"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BipinnadaTipo"/>
@@ -238,6 +639,10 @@
     <SubClassOf>
         <Class IRI="#Blanca"/>
         <Class IRI="#Color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bombacaceae"/>
+        <Class IRI="#Arbol"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CaracteristicaDeHojas"/>
@@ -254,6 +659,16 @@
     <SubClassOf>
         <Class IRI="#Color"/>
         <Class IRI="#Caracteristica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color"/>
+        <ObjectUnionOf>
+            <Class IRI="#Amarilla"/>
+            <Class IRI="#Anaranjada"/>
+            <Class IRI="#Blanca"/>
+            <Class IRI="#Incolora"/>
+            <Class IRI="#Roja"/>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CompuestasTipo"/>
@@ -280,6 +695,76 @@
         <Class IRI="#Parte"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EstructuraAccesoria"/>
+        <ObjectUnionOf>
+            <Class IRI="#Escamas"/>
+            <Class IRI="#Espinas"/>
+            <Class IRI="#Estipula"/>
+            <Class IRI="#Glandula"/>
+            <Class IRI="#Nervadura"/>
+            <Class IRI="#Olor"/>
+            <Class IRI="#Pelos"/>
+            <Class IRI="#PuntosTranslucidos"/>
+            <Class IRI="#Sarcillos"/>
+            <Class IRI="#Savia"/>
+            <Class IRI="#Semilla"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Euphorbaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fabaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fabaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <Class IRI="#Estipula"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fabaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneBorde"/>
+                <Class IRI="#TIpoEntero"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fabaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneHoja"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CompuestasTipo"/>
+                    <ObjectComplementOf>
+                        <Class IRI="#DigitadaTipo"/>
+                    </ObjectComplementOf>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fabaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TienePosicion"/>
+                <Class IRI="#PosicionAlternas"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flacurtiaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Flor"/>
         <Class IRI="#Parte"/>
     </SubClassOf>
@@ -304,12 +789,66 @@
         <Class IRI="#Color"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Lauraceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lecythidaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meliaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melostomataceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melostomataceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneHoja"/>
+                <Class IRI="#SimpleTipo"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melostomataceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneNervadura"/>
+                <Class IRI="#TipoEscaleriforme"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melostomataceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TienePosicion"/>
+                <Class IRI="#PosicionAlternas"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mirtaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moraceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Nervadura"/>
         <Class IRI="#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Olor"/>
-        <Class IRI="#Parte"/>
+        <Class IRI="#Caracteristica"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ParipinnadaTipo"/>
@@ -328,6 +867,13 @@
         <Class IRI="#CaracteristicaDeHojas"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PosicionHoja"/>
+        <ObjectUnionOf>
+            <Class IRI="#PosicionAlternas"/>
+            <Class IRI="#PosicionOpuestas"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PosicionOpuestas"/>
         <Class IRI="#PosicionHoja"/>
     </SubClassOf>
@@ -340,12 +886,71 @@
         <Class IRI="#Color"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rubiaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rubiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <Class IRI="#Estipula"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rubiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <Class IRI="#Flor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rubiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <Class IRI="#Fruto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rubiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneBorde"/>
+                <Class IRI="#TIpoEntero"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rubiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TieneHoja"/>
+                <Class IRI="#SimpleTipo"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rubiaceae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#TienePosicion"/>
+                <Class IRI="#PosicionOpuestas"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rutaceae"/>
+        <Class IRI="#Arbol"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sarcillos"/>
         <Class IRI="#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Savia"/>
-        <Class IRI="#Parte"/>
+        <Class IRI="#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Semilla"/>
@@ -354,6 +959,10 @@
     <SubClassOf>
         <Class IRI="#SimpleTipo"/>
         <Class IRI="#TipodeHoja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sterculiaceae"/>
+        <Class IRI="#Arbol"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TIpoDentado"/>
@@ -378,6 +987,27 @@
     <SubClassOf>
         <Class IRI="#TipoDeFruto"/>
         <Class IRI="#CaracteristicosDeFrutos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TipoDeFruto"/>
+        <ObjectUnionOf>
+            <Class IRI="#TipoAlado"/>
+            <Class IRI="#TipoBaya"/>
+            <Class IRI="#TipoCapsula"/>
+            <Class IRI="#TipoDicarpos"/>
+            <Class IRI="#TipoDrupa"/>
+            <Class IRI="#TipoFoliculo"/>
+            <Class IRI="#TipoFoliculos"/>
+            <Class IRI="#TipoLegumbre"/>
+            <Class IRI="#TipoMonocarpos"/>
+            <Class IRI="#TipoNuez"/>
+            <Class IRI="#TipoPixidio"/>
+            <Class IRI="#TipoSincarpos"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TipoDicarpos"/>
+        <Class IRI="#TipoDeFruto"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TipoDrupa"/>
@@ -428,12 +1058,34 @@
         <Class IRI="#CaracteristicaDeHojas"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TipodeBorde"/>
+        <ObjectUnionOf>
+            <Class IRI="#TIpoDentado"/>
+            <Class IRI="#TIpoEntero"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TipodeHoja"/>
         <Class IRI="#CaracteristicaDeHojas"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TipodeHoja"/>
+        <ObjectUnionOf>
+            <Class IRI="#CompuestasTipo"/>
+            <Class IRI="#SimpleTipo"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TipodeNervadura"/>
         <Class IRI="#CaracteristicaDeNervadura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TipodeNervadura"/>
+        <ObjectUnionOf>
+            <Class IRI="#TipoEscaleriforme"/>
+            <Class IRI="#TipoPinnada"/>
+            <Class IRI="#TipoTrinervada"/>
+        </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TrifolioladaTipo"/>
@@ -445,6 +1097,29 @@
         <Class IRI="#Blanca"/>
         <Class IRI="#Incolora"/>
         <Class IRI="#Roja"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Anacardiaceae"/>
+        <Class IRI="#Anonnaceae"/>
+        <Class IRI="#Apocynaceae"/>
+        <Class IRI="#Bignonaceae"/>
+        <Class IRI="#Bombacaceae"/>
+        <Class IRI="#Euphorbaceae"/>
+        <Class IRI="#Flacurtiaceae"/>
+        <Class IRI="#Lauraceae"/>
+        <Class IRI="#Lecythidaceae"/>
+        <Class IRI="#Meliaceae"/>
+        <Class IRI="#Melostomataceae"/>
+        <Class IRI="#Mirtaceae"/>
+        <Class IRI="#Moraceae"/>
+        <Class IRI="#Rutaceae"/>
+        <Class IRI="#Sterculiaceae"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Arbol"/>
+        <Class IRI="#Caracteristica"/>
+        <Class IRI="#Familia"/>
+        <Class IRI="#Parte"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#BifolioladaTipo"/>
@@ -474,11 +1149,13 @@
         <Class IRI="#TipoAlado"/>
         <Class IRI="#TipoBaya"/>
         <Class IRI="#TipoCapsula"/>
+        <Class IRI="#TipoDicarpos"/>
         <Class IRI="#TipoDrupa"/>
         <Class IRI="#TipoFoliculo"/>
         <Class IRI="#TipoFoliculos"/>
         <Class IRI="#TipoLegumbre"/>
         <Class IRI="#TipoMonocarpos"/>
+        <Class IRI="#TipoNuez"/>
         <Class IRI="#TipoPixidio"/>
         <Class IRI="#TipoSincarpos"/>
     </DisjointClasses>
@@ -487,10 +1164,257 @@
         <Class IRI="#TipoPinnada"/>
         <Class IRI="#TipoTrinervada"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#TIpoEntero"/>
+        <NamedIndividual IRI="#BordeEntero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estipula"/>
+        <NamedIndividual IRI="#Estipula1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flor"/>
+        <NamedIndividual IRI="#Flor1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruto"/>
+        <NamedIndividual IRI="#Fruta1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hoja"/>
+        <NamedIndividual IRI="#Hoja1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SimpleTipo"/>
+        <NamedIndividual IRI="#HojaSimple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PosicionOpuestas"/>
+        <NamedIndividual IRI="#Opuesta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arbol"/>
+        <NamedIndividual IRI="#Planta1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arbol"/>
+        <NamedIndividual IRI="#Planta2"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TieneBorde"/>
+        <NamedIndividual IRI="#Hoja1"/>
+        <NamedIndividual IRI="#BordeEntero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TieneHoja"/>
+        <NamedIndividual IRI="#Hoja1"/>
+        <NamedIndividual IRI="#HojaSimple"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TienePosicion"/>
+        <NamedIndividual IRI="#Hoja1"/>
+        <NamedIndividual IRI="#Opuesta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TieneParte"/>
+        <NamedIndividual IRI="#Planta1"/>
+        <NamedIndividual IRI="#Flor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TieneParte"/>
+        <NamedIndividual IRI="#Planta1"/>
+        <NamedIndividual IRI="#Hoja1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TieneParte"/>
+        <NamedIndividual IRI="#Planta1"/>
+        <NamedIndividual IRI="#Fruta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TieneParte"/>
+        <NamedIndividual IRI="#Planta1"/>
+        <NamedIndividual IRI="#Estipula1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TieneParte"/>
+        <NamedIndividual IRI="#Planta2"/>
+        <NamedIndividual IRI="#Fruta1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#TieneParte"/>
+        <NamedIndividual IRI="#Planta2"/>
+        <NamedIndividual IRI="#Flor1"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsBorde"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsColor"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsEstructura"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsFamilia"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsFruto"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsHoja"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsMiembro"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsParte"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsPosicion"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#EsTipo"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TieneBorde"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#TieneColor"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TieneEstructura"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TieneFruto"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TieneHoja"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TieneNervadura"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TieneParte"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TienePosicion"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TieneTipo"/>
+        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EsBorde"/>
+        <ObjectProperty IRI="#TieneBorde"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EsColor"/>
+        <ObjectProperty IRI="#TieneColor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EsEstructura"/>
+        <ObjectProperty IRI="#TieneEstructura"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EsFamilia"/>
+        <ObjectProperty IRI="#EsMiembro"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#TieneFruto"/>
+        <ObjectProperty IRI="#EsFruto"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#TieneHoja"/>
+        <ObjectProperty IRI="#EsHoja"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#TieneNervadura"/>
+        <ObjectProperty IRI="#EsNervadura"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#EsParte"/>
+        <ObjectProperty IRI="#TieneParte"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#TieneTipo"/>
+        <ObjectProperty IRI="#EsTipo"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#TieneBorde"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#TieneColor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#TieneFruto"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#TieneHoja"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#TienePosicion"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#TieneTipo"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsBorde"/>
+        <Class IRI="#TipodeBorde"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsColor"/>
+        <Class IRI="#Color"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsEstructura"/>
+        <Class IRI="#EstructuraAccesoria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsFruto"/>
+        <Class IRI="#TipoDeFruto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsHoja"/>
+        <Class IRI="#TipodeHoja"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsNervadura"/>
+        <Class IRI="#TipodeNervadura"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsParte"/>
+        <Class IRI="#Parte"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsPosicion"/>
+        <Class IRI="#PosicionHoja"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EsTipo"/>
+        <Class IRI="#TipoDeFruto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tiene"/>
+        <Class IRI="#Arbol"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#TieneBorde"/>
         <Class IRI="#Hoja"/>
@@ -517,10 +1441,14 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#TieneFruto"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="#Fruto"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#TieneHoja"/>
+        <Class IRI="#Hoja"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TieneNervadura"/>
         <Class IRI="#Hoja"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -531,6 +1459,66 @@
         <ObjectProperty IRI="#TienePosicion"/>
         <Class IRI="#Hoja"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TieneTipo"/>
+        <Class IRI="#Fruto"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsBorde"/>
+        <Class IRI="#Hoja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsColor"/>
+        <Class IRI="#EstructuraAccesoria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsColor"/>
+        <Class IRI="#Flor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsColor"/>
+        <Class IRI="#Hoja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsColor"/>
+        <Class IRI="#Olor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsColor"/>
+        <Class IRI="#Savia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsEstructura"/>
+        <Class IRI="#Arbol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsFruto"/>
+        <Class IRI="#Fruto"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsHoja"/>
+        <Class IRI="#Hoja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsNervadura"/>
+        <Class IRI="#Hoja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsParte"/>
+        <Class IRI="#Arbol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsPosicion"/>
+        <Class IRI="#Hoja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EsTipo"/>
+        <Class IRI="#Fruto"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tiene"/>
+        <Class IRI="#Caracteristica"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#TieneBorde"/>
         <Class IRI="#TipodeBorde"/>
@@ -545,11 +1533,15 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#TieneFruto"/>
-        <Class IRI="#Fruto"/>
+        <Class IRI="#TipoDeFruto"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#TieneHoja"/>
         <Class IRI="#TipodeHoja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TieneNervadura"/>
+        <Class IRI="#TipodeNervadura"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#TieneParte"/>
@@ -558,6 +1550,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#TienePosicion"/>
         <Class IRI="#PosicionHoja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TieneTipo"/>
+        <Class IRI="#TipoDeFruto"/>
     </ObjectPropertyRange>
 </Ontology>
 
