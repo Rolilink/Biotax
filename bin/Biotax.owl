@@ -10,1550 +10,1717 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.Biotax/Biotax.owl"
+     xml:base="http://www.Biotax.com/Biotax.owl"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     ontologyIRI="http://www.Biotax/Biotax.owl">
+     ontologyIRI="http://www.Biotax.com/Biotax.owl">
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Amarilla"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Amarilla"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anacardiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anacardiaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anaranjada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anaranjada"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anonnaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anonnaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Apocynaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Apocynaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BifolioladaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#BifolioladaTipo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Bignonaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Bignonaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BipinnadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#BipinnadaTipo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Blanca"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Blanca"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Bombacaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Bombacaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Caracteristica"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Caracteristica"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CaracteristicaDeHojas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicaDeHojas"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CaracteristicaDeNervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicaDeNervadura"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CaracteristicosDeFrutos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicosDeFrutos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Color"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DigitadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#DigitadaTipo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Escamas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Escamas"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Espinas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Espinas"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Estipula"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Estipula"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Euphorbaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Euphorbaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fabaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fabaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Familia"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Flacurtiaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Flacurtiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Flor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Flor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Glandula"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Glandula"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Hoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#ImparipinnadasTipo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ImparipinnadasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Incolora"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Incolora"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Lauraceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lauraceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Lecythidaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lecythidaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Meliaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Meliaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Melostomataceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Melostomataceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Mirtaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Mirtaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Moraceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Moraceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Nervadura"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Nervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Olor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#ParipinnadaTipo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ParipinnadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Parte"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Parte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Pelos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Pelos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PosicionAlternas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionHoja"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PosicionHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionOpuestas"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PosicionOpuestas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PuntosTranslucidos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PuntosTranslucidos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Roja"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Roja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rutaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rutaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Sarcillos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sarcillos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Savia"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Savia"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Semilla"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Semilla"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SimpleTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Sterculiaceae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sterculiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TIpoDentado"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TIpoDentado"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TIpoEntero"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoAlado"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoAlado"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoBaya"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoBaya"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoCapsula"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoCapsula"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoDeFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDicarpos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoDicarpos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDrupa"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoDrupa"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoEscaleriforme"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoEscaleriforme"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoFoliculo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoFoliculo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoLegumbre"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoFoliculos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoMonocarpos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoLegumbre"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoNuez"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoMonocarpos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoPinnada"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoNuez"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoPixidio"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoPinnada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoSincarpos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoPixidio"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoTrinervada"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoSincarpos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeBorde"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipoTrinervada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeHoja"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipodeBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeNervadura"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipodeHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TrifolioladaTipo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TipodeNervadura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#Es"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TrifolioladaTipo"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Es"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsEstructura"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsColor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsFamilia"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsEstructura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsFruto"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsFamilia"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsHoja"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsMiembro"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsNervadura"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsMiembro"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsParte"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsNervadura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsPosicion"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsParte"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsTipo"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsPosicion"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#Tiene"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#EsTipo"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Tiene"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TieneBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneEstructura"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TieneColor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TieneEstructura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TieneFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneNervadura"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TieneHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TieneNervadura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TieneParte"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TienePosicion"/>
+        <NamedIndividual IRI="#bdentado"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#TieneTipo"/>
+        <NamedIndividual IRI="#bentero"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BordeEntero"/>
+        <NamedIndividual IRI="#especie"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Estipula1"/>
+        <NamedIndividual IRI="#falado"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Flor1"/>
+        <NamedIndividual IRI="#fbaya"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Fruta1"/>
+        <NamedIndividual IRI="#fcapsula"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Hoja1"/>
+        <NamedIndividual IRI="#fdicarpos"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#HojaSimple"/>
+        <NamedIndividual IRI="#fdrupa"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Opuesta"/>
+        <NamedIndividual IRI="#ffoliculo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Planta1"/>
+        <NamedIndividual IRI="#flegumbre"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Planta2"/>
+        <NamedIndividual IRI="#fmonocarpos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fnuez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fpixidio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fsincarpos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hbifoliolada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hbipinnada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hcompuesta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hdigitada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#himparipinnada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hparipinnada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hsimple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#htrifoliolada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iescama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iespina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iestipula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iflor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ifruto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iglandula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ihoja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inervadura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ipelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ipunto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#isarcillo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#isavia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#isemilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nescaleriforme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#npinnada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ntrinervada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#palterna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#popuesta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xamarilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xanaranjada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xblanca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xincolora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xolor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xroja"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="#Anacardiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anacardiaceae"/>
         <ObjectIntersectionOf>
-            <Class IRI="#Arbol"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#Tiene"/>
-                <Class IRI="#Olor"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#Tiene"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneFruto"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
                     <ObjectUnionOf>
-                        <Class IRI="#TipoDrupa"/>
-                        <Class IRI="#TipoNuez"/>
+                        <Class IRI="http://www.Biotax/Biotax.owl#TipoDrupa"/>
+                        <Class IRI="http://www.Biotax/Biotax.owl#TipoNuez"/>
                     </ObjectUnionOf>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneHoja"/>
-                    <Class IRI="#PosicionAlternas"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneHoja"/>
-                    <Class IRI="#SimpleTipo"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Anonnaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anonnaceae"/>
         <ObjectIntersectionOf>
-            <Class IRI="#Arbol"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#Tiene"/>
-                <Class IRI="#Olor"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#Tiene"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneFruto"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
                     <ObjectUnionOf>
-                        <Class IRI="#TipoDicarpos"/>
-                        <Class IRI="#TipoMonocarpos"/>
+                        <Class IRI="http://www.Biotax/Biotax.owl#TipoDicarpos"/>
+                        <Class IRI="http://www.Biotax/Biotax.owl#TipoMonocarpos"/>
                     </ObjectUnionOf>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneHoja"/>
-                    <Class IRI="#SimpleTipo"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TienePosicion"/>
-                    <Class IRI="#PosicionAlternas"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Fabaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fabaceae"/>
         <ObjectIntersectionOf>
-            <Class IRI="#Arbol"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
-                <Class IRI="#Estipula"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#Estipula"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneBorde"/>
-                    <Class IRI="#TIpoEntero"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneHoja"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
                     <ObjectIntersectionOf>
-                        <Class IRI="#CompuestasTipo"/>
+                        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
                         <ObjectComplementOf>
-                            <Class IRI="#DigitadaTipo"/>
+                            <Class IRI="http://www.Biotax/Biotax.owl#DigitadaTipo"/>
                         </ObjectComplementOf>
                     </ObjectIntersectionOf>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TienePosicion"/>
-                    <Class IRI="#PosicionAlternas"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Melostomataceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Melostomataceae"/>
         <ObjectIntersectionOf>
-            <Class IRI="#Arbol"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneBorde"/>
-                    <Class IRI="#TipodeBorde"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#TipodeBorde"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneHoja"/>
-                    <Class IRI="#SimpleTipo"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneNervadura"/>
-                    <Class IRI="#TipoEscaleriforme"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneNervadura"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#TipoEscaleriforme"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
         <ObjectIntersectionOf>
-            <Class IRI="#Arbol"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneBorde"/>
-                    <Class IRI="#TIpoEntero"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TieneHoja"/>
-                    <Class IRI="#SimpleTipo"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneParte"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#TienePosicion"/>
-                    <Class IRI="#PosicionOpuestas"/>
+                    <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#PosicionOpuestas"/>
                 </ObjectSomeValuesFrom>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#Amarilla"/>
-        <Class IRI="#Color"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Amarilla"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anacardiaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anacardiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anacardiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anacardiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#Tiene"/>
-            <Class IRI="#Olor"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#Tiene"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anacardiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anacardiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneFruto"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
                 <ObjectUnionOf>
-                    <Class IRI="#TipoDrupa"/>
-                    <Class IRI="#TipoNuez"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#TipoDrupa"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#TipoNuez"/>
                 </ObjectUnionOf>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anacardiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anacardiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneHoja"/>
-                <Class IRI="#TipodeHoja"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#TipodeHoja"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anacardiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anacardiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TienePosicion"/>
-                <Class IRI="#PosicionAlternas"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anaranjada"/>
-        <Class IRI="#Color"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anaranjada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anonnaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anonnaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anonnaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anonnaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#Tiene"/>
-            <Class IRI="#Olor"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#Tiene"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anonnaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anonnaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneFruto"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
                 <ObjectUnionOf>
-                    <Class IRI="#TipoDicarpos"/>
-                    <Class IRI="#TipoMonocarpos"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#TipoDicarpos"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#TipoMonocarpos"/>
                 </ObjectUnionOf>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anonnaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anonnaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneHoja"/>
-                <Class IRI="#SimpleTipo"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anonnaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anonnaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TienePosicion"/>
-                <Class IRI="#PosicionAlternas"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Apocynaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Apocynaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
-            <Class IRI="#Flor"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Flor"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
-            <Class IRI="#Fruto"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
-            <Class IRI="#Hoja"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BifolioladaTipo"/>
-        <Class IRI="#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#BifolioladaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Bignonaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Bignonaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BipinnadaTipo"/>
-        <Class IRI="#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#BipinnadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Blanca"/>
-        <Class IRI="#Color"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Blanca"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Bombacaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Bombacaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CaracteristicaDeHojas"/>
-        <Class IRI="#Caracteristica"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicaDeHojas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Caracteristica"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CaracteristicaDeNervadura"/>
-        <Class IRI="#Caracteristica"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicaDeNervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Caracteristica"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CaracteristicosDeFrutos"/>
-        <Class IRI="#Caracteristica"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicosDeFrutos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Caracteristica"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Color"/>
-        <Class IRI="#Caracteristica"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Caracteristica"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Color"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
         <ObjectUnionOf>
-            <Class IRI="#Amarilla"/>
-            <Class IRI="#Anaranjada"/>
-            <Class IRI="#Blanca"/>
-            <Class IRI="#Incolora"/>
-            <Class IRI="#Roja"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Amarilla"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Anaranjada"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Blanca"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Incolora"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Roja"/>
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CompuestasTipo"/>
-        <Class IRI="#TipodeHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeHoja"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DigitadaTipo"/>
-        <Class IRI="#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#DigitadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Escamas"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Escamas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Espinas"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Espinas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Estipula"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Estipula"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EstructuraAccesoria"/>
-        <Class IRI="#Parte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Parte"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
         <ObjectUnionOf>
-            <Class IRI="#Escamas"/>
-            <Class IRI="#Espinas"/>
-            <Class IRI="#Estipula"/>
-            <Class IRI="#Glandula"/>
-            <Class IRI="#Nervadura"/>
-            <Class IRI="#Olor"/>
-            <Class IRI="#Pelos"/>
-            <Class IRI="#PuntosTranslucidos"/>
-            <Class IRI="#Sarcillos"/>
-            <Class IRI="#Savia"/>
-            <Class IRI="#Semilla"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Escamas"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Espinas"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Estipula"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Glandula"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Nervadura"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Pelos"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#PuntosTranslucidos"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Sarcillos"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Savia"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Semilla"/>
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Euphorbaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Euphorbaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fabaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fabaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fabaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fabaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
-            <Class IRI="#Estipula"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Estipula"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fabaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fabaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneBorde"/>
-                <Class IRI="#TIpoEntero"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fabaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fabaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneHoja"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
                 <ObjectIntersectionOf>
-                    <Class IRI="#CompuestasTipo"/>
+                    <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
                     <ObjectComplementOf>
-                        <Class IRI="#DigitadaTipo"/>
+                        <Class IRI="http://www.Biotax/Biotax.owl#DigitadaTipo"/>
                     </ObjectComplementOf>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fabaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fabaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TienePosicion"/>
-                <Class IRI="#PosicionAlternas"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Flacurtiaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Flacurtiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Flor"/>
-        <Class IRI="#Parte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Flor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Parte"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fruto"/>
-        <Class IRI="#Parte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Parte"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Glandula"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Glandula"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Hoja"/>
-        <Class IRI="#Parte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Parte"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ImparipinnadasTipo"/>
-        <Class IRI="#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#ImparipinnadasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Incolora"/>
-        <Class IRI="#Color"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Incolora"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Lauraceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Lauraceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Lecythidaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Lecythidaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Meliaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Meliaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Melostomataceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Melostomataceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Melostomataceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Melostomataceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneHoja"/>
-                <Class IRI="#SimpleTipo"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Melostomataceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Melostomataceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneNervadura"/>
-                <Class IRI="#TipoEscaleriforme"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneNervadura"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#TipoEscaleriforme"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Melostomataceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Melostomataceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TienePosicion"/>
-                <Class IRI="#PosicionAlternas"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Mirtaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Mirtaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Moraceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Moraceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Nervadura"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Nervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Olor"/>
-        <Class IRI="#Caracteristica"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Caracteristica"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ParipinnadaTipo"/>
-        <Class IRI="#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#ParipinnadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Pelos"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Pelos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PosicionAlternas"/>
-        <Class IRI="#PosicionHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionHoja"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PosicionHoja"/>
-        <Class IRI="#CaracteristicaDeHojas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicaDeHojas"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PosicionHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionHoja"/>
         <ObjectUnionOf>
-            <Class IRI="#PosicionAlternas"/>
-            <Class IRI="#PosicionOpuestas"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#PosicionOpuestas"/>
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PosicionOpuestas"/>
-        <Class IRI="#PosicionHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionOpuestas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionHoja"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PuntosTranslucidos"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PuntosTranslucidos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Roja"/>
-        <Class IRI="#Color"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Roja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rubiaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
-            <Class IRI="#Estipula"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Estipula"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
-            <Class IRI="#Flor"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Flor"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
-            <Class IRI="#Fruto"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneBorde"/>
-                <Class IRI="#TIpoEntero"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TieneHoja"/>
-                <Class IRI="#SimpleTipo"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rubiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rubiaceae"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#TieneParte"/>
+            <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#TienePosicion"/>
-                <Class IRI="#PosicionOpuestas"/>
+                <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+                <Class IRI="http://www.Biotax/Biotax.owl#PosicionOpuestas"/>
             </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rutaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rutaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sarcillos"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Sarcillos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Savia"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Savia"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Semilla"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Semilla"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SimpleTipo"/>
-        <Class IRI="#TipodeHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeHoja"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sterculiaceae"/>
-        <Class IRI="#Arbol"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Sterculiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TIpoDentado"/>
-        <Class IRI="#TipodeBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TIpoDentado"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeBorde"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TIpoEntero"/>
-        <Class IRI="#TipodeBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeBorde"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipoAlado"/>
-        <Class IRI="#TipoDeFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoAlado"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipoBaya"/>
-        <Class IRI="#TipoDeFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoBaya"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipoCapsula"/>
-        <Class IRI="#TipoDeFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoCapsula"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipoDeFruto"/>
-        <Class IRI="#CaracteristicosDeFrutos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicosDeFrutos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipoDeFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDicarpos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDrupa"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoEscaleriforme"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeNervadura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoFoliculo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoLegumbre"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoMonocarpos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoNuez"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoPinnada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeNervadura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoPixidio"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoSincarpos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoTrinervada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeNervadura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicaDeHojas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeBorde"/>
         <ObjectUnionOf>
-            <Class IRI="#TipoAlado"/>
-            <Class IRI="#TipoBaya"/>
-            <Class IRI="#TipoCapsula"/>
-            <Class IRI="#TipoDicarpos"/>
-            <Class IRI="#TipoDrupa"/>
-            <Class IRI="#TipoFoliculo"/>
-            <Class IRI="#TipoFoliculos"/>
-            <Class IRI="#TipoLegumbre"/>
-            <Class IRI="#TipoMonocarpos"/>
-            <Class IRI="#TipoNuez"/>
-            <Class IRI="#TipoPixidio"/>
-            <Class IRI="#TipoSincarpos"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#TIpoDentado"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipoDicarpos"/>
-        <Class IRI="#TipoDeFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicaDeHojas"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipoDrupa"/>
-        <Class IRI="#TipoDeFruto"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoEscaleriforme"/>
-        <Class IRI="#TipodeNervadura"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoFoliculo"/>
-        <Class IRI="#TipoDeFruto"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoFoliculos"/>
-        <Class IRI="#TipoDeFruto"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoLegumbre"/>
-        <Class IRI="#TipoDeFruto"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoMonocarpos"/>
-        <Class IRI="#TipoDeFruto"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoNuez"/>
-        <Class IRI="#TipoDeFruto"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoPinnada"/>
-        <Class IRI="#TipodeNervadura"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoPixidio"/>
-        <Class IRI="#TipoDeFruto"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoSincarpos"/>
-        <Class IRI="#TipoDeFruto"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipoTrinervada"/>
-        <Class IRI="#TipodeNervadura"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipodeBorde"/>
-        <Class IRI="#CaracteristicaDeHojas"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipodeBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeHoja"/>
         <ObjectUnionOf>
-            <Class IRI="#TIpoDentado"/>
-            <Class IRI="#TIpoEntero"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipodeHoja"/>
-        <Class IRI="#CaracteristicaDeHojas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeNervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CaracteristicaDeNervadura"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipodeHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeNervadura"/>
         <ObjectUnionOf>
-            <Class IRI="#CompuestasTipo"/>
-            <Class IRI="#SimpleTipo"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#TipoEscaleriforme"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#TipoPinnada"/>
+            <Class IRI="http://www.Biotax/Biotax.owl#TipoTrinervada"/>
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TipodeNervadura"/>
-        <Class IRI="#CaracteristicaDeNervadura"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TipodeNervadura"/>
-        <ObjectUnionOf>
-            <Class IRI="#TipoEscaleriforme"/>
-            <Class IRI="#TipoPinnada"/>
-            <Class IRI="#TipoTrinervada"/>
-        </ObjectUnionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TrifolioladaTipo"/>
-        <Class IRI="#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TrifolioladaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#Amarilla"/>
-        <Class IRI="#Anaranjada"/>
-        <Class IRI="#Blanca"/>
-        <Class IRI="#Incolora"/>
-        <Class IRI="#Roja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Amarilla"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anaranjada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Blanca"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Incolora"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Roja"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Anacardiaceae"/>
-        <Class IRI="#Anonnaceae"/>
-        <Class IRI="#Apocynaceae"/>
-        <Class IRI="#Bignonaceae"/>
-        <Class IRI="#Bombacaceae"/>
-        <Class IRI="#Euphorbaceae"/>
-        <Class IRI="#Flacurtiaceae"/>
-        <Class IRI="#Lauraceae"/>
-        <Class IRI="#Lecythidaceae"/>
-        <Class IRI="#Meliaceae"/>
-        <Class IRI="#Melostomataceae"/>
-        <Class IRI="#Mirtaceae"/>
-        <Class IRI="#Moraceae"/>
-        <Class IRI="#Rutaceae"/>
-        <Class IRI="#Sterculiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anacardiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anonnaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Apocynaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Bignonaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Bombacaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Euphorbaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Flacurtiaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Lauraceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Lecythidaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Meliaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Melostomataceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Mirtaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Moraceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Rutaceae"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Sterculiaceae"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Arbol"/>
-        <Class IRI="#Caracteristica"/>
-        <Class IRI="#Familia"/>
-        <Class IRI="#Parte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#BifolioladaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#BipinnadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#DigitadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#ImparipinnadasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#ParipinnadaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TrifolioladaTipo"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#BifolioladaTipo"/>
-        <Class IRI="#BipinnadaTipo"/>
-        <Class IRI="#DigitadaTipo"/>
-        <Class IRI="#ImparipinnadasTipo"/>
-        <Class IRI="#ParipinnadaTipo"/>
-        <Class IRI="#TrifolioladaTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#CompuestasTipo"/>
-        <Class IRI="#SimpleTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Espinas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Sarcillos"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Espinas"/>
-        <Class IRI="#Sarcillos"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionOpuestas"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#PosicionAlternas"/>
-        <Class IRI="#PosicionOpuestas"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TIpoDentado"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#TIpoDentado"/>
-        <Class IRI="#TIpoEntero"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#TipoAlado"/>
-        <Class IRI="#TipoBaya"/>
-        <Class IRI="#TipoCapsula"/>
-        <Class IRI="#TipoDicarpos"/>
-        <Class IRI="#TipoDrupa"/>
-        <Class IRI="#TipoFoliculo"/>
-        <Class IRI="#TipoFoliculos"/>
-        <Class IRI="#TipoLegumbre"/>
-        <Class IRI="#TipoMonocarpos"/>
-        <Class IRI="#TipoNuez"/>
-        <Class IRI="#TipoPixidio"/>
-        <Class IRI="#TipoSincarpos"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#TipoEscaleriforme"/>
-        <Class IRI="#TipoPinnada"/>
-        <Class IRI="#TipoTrinervada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoEscaleriforme"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoPinnada"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoTrinervada"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#TIpoEntero"/>
-        <NamedIndividual IRI="#BordeEntero"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TIpoDentado"/>
+        <NamedIndividual IRI="#bdentado"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Estipula"/>
-        <NamedIndividual IRI="#Estipula1"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TIpoEntero"/>
+        <NamedIndividual IRI="#bentero"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Flor"/>
-        <NamedIndividual IRI="#Flor1"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
+        <NamedIndividual IRI="#especie"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fruto"/>
-        <NamedIndividual IRI="#Fruta1"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoAlado"/>
+        <NamedIndividual IRI="#falado"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Hoja"/>
-        <NamedIndividual IRI="#Hoja1"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoBaya"/>
+        <NamedIndividual IRI="#fbaya"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#SimpleTipo"/>
-        <NamedIndividual IRI="#HojaSimple"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoCapsula"/>
+        <NamedIndividual IRI="#fcapsula"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#PosicionOpuestas"/>
-        <NamedIndividual IRI="#Opuesta"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDicarpos"/>
+        <NamedIndividual IRI="#fdicarpos"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Arbol"/>
-        <NamedIndividual IRI="#Planta1"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDrupa"/>
+        <NamedIndividual IRI="#fdrupa"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Arbol"/>
-        <NamedIndividual IRI="#Planta2"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoFoliculo"/>
+        <NamedIndividual IRI="#ffoliculo"/>
     </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TieneBorde"/>
-        <NamedIndividual IRI="#Hoja1"/>
-        <NamedIndividual IRI="#BordeEntero"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TieneHoja"/>
-        <NamedIndividual IRI="#Hoja1"/>
-        <NamedIndividual IRI="#HojaSimple"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TienePosicion"/>
-        <NamedIndividual IRI="#Hoja1"/>
-        <NamedIndividual IRI="#Opuesta"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TieneParte"/>
-        <NamedIndividual IRI="#Planta1"/>
-        <NamedIndividual IRI="#Flor1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TieneParte"/>
-        <NamedIndividual IRI="#Planta1"/>
-        <NamedIndividual IRI="#Hoja1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TieneParte"/>
-        <NamedIndividual IRI="#Planta1"/>
-        <NamedIndividual IRI="#Fruta1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TieneParte"/>
-        <NamedIndividual IRI="#Planta1"/>
-        <NamedIndividual IRI="#Estipula1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TieneParte"/>
-        <NamedIndividual IRI="#Planta2"/>
-        <NamedIndividual IRI="#Fruta1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#TieneParte"/>
-        <NamedIndividual IRI="#Planta2"/>
-        <NamedIndividual IRI="#Flor1"/>
-    </ObjectPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoLegumbre"/>
+        <NamedIndividual IRI="#flegumbre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoMonocarpos"/>
+        <NamedIndividual IRI="#fmonocarpos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoNuez"/>
+        <NamedIndividual IRI="#fnuez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoPixidio"/>
+        <NamedIndividual IRI="#fpixidio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoSincarpos"/>
+        <NamedIndividual IRI="#fsincarpos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#BifolioladaTipo"/>
+        <NamedIndividual IRI="#hbifoliolada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#BipinnadaTipo"/>
+        <NamedIndividual IRI="#hbipinnada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#CompuestasTipo"/>
+        <NamedIndividual IRI="#hcompuesta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#DigitadaTipo"/>
+        <NamedIndividual IRI="#hdigitada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#ImparipinnadasTipo"/>
+        <NamedIndividual IRI="#himparipinnada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#ParipinnadaTipo"/>
+        <NamedIndividual IRI="#hparipinnada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#SimpleTipo"/>
+        <NamedIndividual IRI="#hsimple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TrifolioladaTipo"/>
+        <NamedIndividual IRI="#htrifoliolada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Escamas"/>
+        <NamedIndividual IRI="#iescama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Espinas"/>
+        <NamedIndividual IRI="#iespina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Estipula"/>
+        <NamedIndividual IRI="#iestipula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Flor"/>
+        <NamedIndividual IRI="#iflor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
+        <NamedIndividual IRI="#ifruto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Glandula"/>
+        <NamedIndividual IRI="#iglandula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
+        <NamedIndividual IRI="#ihoja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Nervadura"/>
+        <NamedIndividual IRI="#inervadura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Pelos"/>
+        <NamedIndividual IRI="#ipelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#PuntosTranslucidos"/>
+        <NamedIndividual IRI="#ipunto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Sarcillos"/>
+        <NamedIndividual IRI="#isarcillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Savia"/>
+        <NamedIndividual IRI="#isavia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Semilla"/>
+        <NamedIndividual IRI="#isemilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoEscaleriforme"/>
+        <NamedIndividual IRI="#nescaleriforme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoPinnada"/>
+        <NamedIndividual IRI="#npinnada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoTrinervada"/>
+        <NamedIndividual IRI="#ntrinervada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionAlternas"/>
+        <NamedIndividual IRI="#palterna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionOpuestas"/>
+        <NamedIndividual IRI="#popuesta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Amarilla"/>
+        <NamedIndividual IRI="#xamarilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Anaranjada"/>
+        <NamedIndividual IRI="#xanaranjada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Blanca"/>
+        <NamedIndividual IRI="#xblanca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Incolora"/>
+        <NamedIndividual IRI="#xincolora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
+        <NamedIndividual IRI="#xolor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.Biotax/Biotax.owl#Roja"/>
+        <NamedIndividual IRI="#xroja"/>
+    </ClassAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsColor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsEstructura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsEstructura"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsFamilia"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsFamilia"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsFruto"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsHoja"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsMiembro"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsMiembro"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsParte"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsParte"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsPosicion"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsPosicion"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#EsTipo"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsTipo"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TieneBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TieneColor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TieneEstructura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneEstructura"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TieneFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TieneHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TieneNervadura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneNervadura"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TieneParte"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TienePosicion"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#TieneTipo"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#EsBorde"/>
-        <ObjectProperty IRI="#TieneBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#EsColor"/>
-        <ObjectProperty IRI="#TieneColor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#EsEstructura"/>
-        <ObjectProperty IRI="#TieneEstructura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneEstructura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsEstructura"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#EsFamilia"/>
-        <ObjectProperty IRI="#EsMiembro"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsFamilia"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsMiembro"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#TieneFruto"/>
-        <ObjectProperty IRI="#EsFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsFruto"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#TieneHoja"/>
-        <ObjectProperty IRI="#EsHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsHoja"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#TieneNervadura"/>
-        <ObjectProperty IRI="#EsNervadura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneNervadura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsNervadura"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#EsParte"/>
-        <ObjectProperty IRI="#TieneParte"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsParte"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#TieneTipo"/>
-        <ObjectProperty IRI="#EsTipo"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsTipo"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#TieneBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#TieneColor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#TieneFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#TieneHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#TienePosicion"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#TieneTipo"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
     </FunctionalObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsBorde"/>
-        <Class IRI="#TipodeBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeBorde"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsColor"/>
-        <Class IRI="#Color"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsEstructura"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsEstructura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsFruto"/>
-        <Class IRI="#TipoDeFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsHoja"/>
-        <Class IRI="#TipodeHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeHoja"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsNervadura"/>
-        <Class IRI="#TipodeNervadura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsNervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeNervadura"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsParte"/>
-        <Class IRI="#Parte"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsParte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Parte"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsPosicion"/>
-        <Class IRI="#PosicionHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsPosicion"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionHoja"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#EsTipo"/>
-        <Class IRI="#TipoDeFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Tiene"/>
-        <Class IRI="#Arbol"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#Tiene"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneBorde"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneColor"/>
-        <Class IRI="#Flor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Flor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneColor"/>
-        <Class IRI="#Fruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneColor"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneColor"/>
-        <Class IRI="#Savia"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Savia"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneEstructura"/>
-        <Class IRI="#Arbol"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneEstructura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneFruto"/>
-        <Class IRI="#Fruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneHoja"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneNervadura"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneNervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneParte"/>
-        <Class IRI="#Arbol"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TienePosicion"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TieneTipo"/>
-        <Class IRI="#Fruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsBorde"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsColor"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsColor"/>
-        <Class IRI="#Flor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Flor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsColor"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsColor"/>
-        <Class IRI="#Olor"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Olor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsColor"/>
-        <Class IRI="#Savia"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Savia"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsEstructura"/>
-        <Class IRI="#Arbol"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsEstructura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsFruto"/>
-        <Class IRI="#Fruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsHoja"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsNervadura"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsNervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsParte"/>
-        <Class IRI="#Arbol"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsParte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Arbol"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsPosicion"/>
-        <Class IRI="#Hoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsPosicion"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#EsTipo"/>
-        <Class IRI="#Fruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#Tiene"/>
-        <Class IRI="#Caracteristica"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#Tiene"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Caracteristica"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TieneBorde"/>
-        <Class IRI="#TipodeBorde"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeBorde"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TieneColor"/>
-        <Class IRI="#Color"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneColor"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Color"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TieneEstructura"/>
-        <Class IRI="#EstructuraAccesoria"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneEstructura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#EstructuraAccesoria"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TieneFruto"/>
-        <Class IRI="#TipoDeFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneFruto"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TieneHoja"/>
-        <Class IRI="#TipodeHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeHoja"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TieneNervadura"/>
-        <Class IRI="#TipodeNervadura"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneNervadura"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipodeNervadura"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TieneParte"/>
-        <Class IRI="#Parte"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#Parte"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TienePosicion"/>
-        <Class IRI="#PosicionHoja"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#PosicionHoja"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#TieneTipo"/>
-        <Class IRI="#TipoDeFruto"/>
+        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
+        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </ObjectPropertyRange>
 </Ontology>
 
