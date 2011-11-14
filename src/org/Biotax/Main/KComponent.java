@@ -75,6 +75,8 @@ public IRI entero;
 //posicion de hoja
 public IRI opuesta;
 public IRI alterna;
+//relaciones
+
 
 IRIdictionary(String r){
   this.documentiri=IRI.create(r);
