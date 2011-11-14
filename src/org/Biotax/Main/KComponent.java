@@ -135,6 +135,29 @@ IRIdictionary(String r){
   this.alterna= IRI.create(s + "palterna");
 }
 }
+//Diccionario de relaciones de la ontologia
+class IRIrelationship{
+	public IRI documentiri;
+	public IRI bordetipo;
+	public IRI tienecolor;
+	public IRI frutotipo;
+	public IRI hojatipo;
+	public IRI nervaduratipo;
+	public IRI tieneparte;
+	public IRI posiciontipo;
+	
+	IRIrelationship(String r){
+		this.documentiri=IRI.create(r);
+		  String s = r+"#";
+			this.bordetipo = IRI.create(s + "TieneBorde");
+			this.tienecolor = IRI.create(s + "TieneColor");
+			this.frutotipo = IRI.create(s + "TieneFruto");
+			this.hojatipo = IRI.create(s + "TieneHoja");
+			this.nervaduratipo = IRI.create(s + "TieneNervadura");
+			this.tieneparte = IRI.create(s + "TieneParte");
+			this.posiciontipo= IRI.create(s + "TienePosicion");
+	}
+}
 
 //Componente de conocimiento de la aplicacion consta de una Ontologia(Base de Conocimientos)
 //y el razonador hermit (Motor de Inferencia)
