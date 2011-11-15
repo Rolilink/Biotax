@@ -226,35 +226,35 @@ public void IdentifyHoja(Hoja hoja){
 	
 		}
 
-		if(hoja.tipoborde == "Simple"){
+		if(hoja.tipohoja == "Simple"){
 			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.simple)));
 	
 			}
-		if(hoja.tipoborde == "Bifoliolada"){
+		if(hoja.tipohoja == "Bifoliolada"){
 			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.bifoliada)));
 
 		}
 		
-		if(hoja.tipoborde == "Bipinnada"){
+		if(hoja.tipohoja == "Bipinnada"){
 			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.bipinnada)));
 
 		}
 		
-		if(hoja.tipoborde == "Digitada"){
+		if(hoja.tipohoja == "Digitada"){
 			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.digitada)));
 			
 		}
 		
-		if(hoja.tipoborde == "Imparipinnada"){
+		if(hoja.tipohoja == "Imparipinnada"){
 			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.imparipinnada)));
 	
 		}
 		
-		if(hoja.tipoborde == "Paripinnada"){
+		if(hoja.tipohoja == "Paripinnada"){
 			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.paripinnada)));
 
 		}
-		if(hoja.tipoborde == "Trifoliolada"){
+		if(hoja.tipohoja == "Trifoliolada"){
 			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.trifoliada)));
 
 		}
