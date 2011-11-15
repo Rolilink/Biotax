@@ -310,9 +310,6 @@
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#bdentado"/>
     </Declaration>
     <Declaration>
@@ -1484,10 +1481,6 @@
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
     </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
-        <ObjectProperty abbreviatedIRI=":topObjectProperty"/>
-    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
@@ -1520,10 +1513,6 @@
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsParte"/>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
     </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsTipo"/>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
-    </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
     </FunctionalObjectProperty>
@@ -1538,9 +1527,6 @@
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
     </FunctionalObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
@@ -1625,10 +1611,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
         <Class IRI="http://www.Biotax/Biotax.owl#Hoja"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
-        <Class IRI="http://www.Biotax/Biotax.owl#Fruto"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
@@ -1717,10 +1699,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
         <Class IRI="http://www.Biotax/Biotax.owl#PosicionHoja"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneTipo"/>
-        <Class IRI="http://www.Biotax/Biotax.owl#TipoDeFruto"/>
     </ObjectPropertyRange>
 </Ontology>
 

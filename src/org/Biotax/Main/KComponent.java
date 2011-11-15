@@ -80,6 +80,7 @@ public IRI entero;
 //posicion de hoja
 public IRI opuesta;
 public IRI alterna;
+public IRI especie;
 //relaciones
 
 
@@ -140,6 +141,7 @@ IRIdictionary(String r){
   //posicion de hoja
   this.opuesta= IRI.create(s + "popuesto");
   this.alterna= IRI.create(s + "palterna");
+  this.especie = IRI.create(s + "especie");
 }
 }
 //Diccionario de relaciones de la ontologia
@@ -321,6 +323,38 @@ if(nervadura=="Trinervada"){
 }
 }	
 }
-
+public void IdentifyParte(Planta especie){
+	if(especie.hoja != null){
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.hoja)));
+	}
+	
+	if(especie.fruto != null){
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.fruto)));
+	}
+	
+	if(especie.espina != null){
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.espina)));
+	}
+	
+	if(especie.estipula != null){
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.estipula)));
+	}
+	
+	if(especie.olor != null){
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.olor)));
+	}
+	
+	if(especie.puntot != null){
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.punto)));	
+	}
+	
+	if(especie.semilla != null){
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.semilla)));	
+	}
+	
+	if(especie.nervadura != null){
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.nervadura)));
+	}
+}
 };
 
