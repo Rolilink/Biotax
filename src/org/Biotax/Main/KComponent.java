@@ -3,8 +3,11 @@ package org.Biotax.Main;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Set;
+import java.util.List;
 import java.util.Iterator;
+import org.Biotax.Main.*;
 //Imports del Owl Api
 import org.semanticweb.owlapi.io.*;
 import org.semanticweb.owlapi.model.*;
@@ -69,6 +72,7 @@ public IRI imparipinnada;
 public IRI digitada;
 public IRI bipinnada;
 public IRI bifoliada;
+public IRI compuesta;
 //tipo de borde
 public IRI dentado;
 public IRI entero;
@@ -127,6 +131,7 @@ IRIdictionary(String r){
   this.digitada= IRI.create(s + "hdigitada");
   this.bipinnada= IRI.create(s + "hbipinnada");
   this.bifoliada= IRI.create(s + "hbifoliolada");
+  this.compuesta= IRI.create(s + "hcompuesta");
   //tipo de borde
   this.dentado = IRI.create(s + "bdentado");
   this.entero = IRI.create(s + "bentero");
@@ -169,5 +174,98 @@ private OWLOntologyManager manager;
 private OWLDataFactory factory;
 private IRIdictionary iridictionary;
 private OWLReasoner reasoner;
+private IRIrelationship relationship;
+public List<OWLAxiom> assertionset;
+KComponent(String s) throws OWLOntologyCreationException{
+	this.file = new File(s);
+	manager = OWLManager.createOWLOntologyManager();
+	knowledgebase = manager.loadOntologyFromOntologyDocument(file);
+	factory = manager.getOWLDataFactory();
+	iridictionary= new IRIdictionary("http://www.Biotax.com/Biotax.owl");
+	relationship= new IRIrelationship("http://www.Biotax.com/Biotax.owl");
+	OWLReasonerFactory reasonerFactory = new Reasoner.ReasonerFactory();
+	ConsoleProgressMonitor progressMonitor = new ConsoleProgressMonitor();
+	OWLReasonerConfiguration config = new SimpleConfiguration(progressMonitor);
+	reasoner = reasonerFactory.createReasoner(knowledgebase, config);
+	assertionset = new ArrayList();
+}
+public String Identify(Planta especie){
+	
+	return "";
+}
+public void IdentifyHoja(Hoja hoja){
+	if(hoja.posicionhoja != null){
+		if(hoja.posicionhoja == "Alterna"){
+		 assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.posiciontipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.alterna)));
+		}
+		else
+		if(hoja.posicionhoja == "Opuesta"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.posiciontipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.opuesta)));
+	
+		}
+	}
+	
+	if(hoja.tipoborde != null){
+		if(hoja.tipoborde == "Dentado"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.bordetipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.dentado)));
+
+		}
+		else
+			if(hoja.tipoborde == "Entero"){
+				assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.bordetipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.entero)));
+	
+			}	
+		
+		}
+	
+	
+	if(hoja.tipohoja != null){
+		
+		if(hoja.tipohoja == "Compuesta"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.compuesta)));
+	
+		}
+
+		if(hoja.tipoborde == "Simple"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.simple)));
+	
+			}
+		if(hoja.tipoborde == "Bifoliolada"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.bifoliada)));
+
+		}
+		
+		if(hoja.tipoborde == "Bipinnada"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.bipinnada)));
+
+		}
+		
+		if(hoja.tipoborde == "Digitada"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.digitada)));
+			
+		}
+		
+		if(hoja.tipoborde == "Imparipinnada"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.imparipinnada)));
+	
+		}
+		
+		if(hoja.tipoborde == "Paripinnada"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.paripinnada)));
+
+		}
+		if(hoja.tipoborde == "Trifoliolada"){
+			assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.hojatipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.trifoliada)));
+
+		}
+	}
+}
+public void IdentifyFruto(Fruto fruto){
+	
+}
+public void IdentifyNervadura(String nervadura){
+	
+}
+
 };
 
