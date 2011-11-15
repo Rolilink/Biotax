@@ -139,7 +139,7 @@ IRIdictionary(String r){
   this.dentado = IRI.create(s + "bdentado");
   this.entero = IRI.create(s + "bentero");
   //posicion de hoja
-  this.opuesta= IRI.create(s + "popuesto");
+  this.opuesta= IRI.create(s + "popuesta");
   this.alterna= IRI.create(s + "palterna");
   this.especie = IRI.create(s + "especie");
 }
@@ -186,25 +186,28 @@ KComponent(String s) throws OWLOntologyCreationException{
 	knowledgebase = manager.loadOntologyFromOntologyDocument(file);
 	factory = manager.getOWLDataFactory();
 	iridictionary= new IRIdictionary("http://www.Biotax.com/Biotax.owl");
-	relationship= new IRIrelationship("http://www.Biotax.com/Biotax.owl");
+	relationship= new IRIrelationship("http://www.Biotax/Biotax.owl");
 	OWLReasonerFactory reasonerFactory = new Reasoner.ReasonerFactory();
 	ConsoleProgressMonitor progressMonitor = new ConsoleProgressMonitor();
 	OWLReasonerConfiguration config = new SimpleConfiguration(progressMonitor);
 	reasoner = reasonerFactory.createReasoner(knowledgebase, config);
 	assertionset = new ArrayList();
 }
-public String Identify(Planta especie){
+public String Identify(Planta especie) throws OWLOntologyStorageException{
 	String familia = "";
 	boolean consistent;
 	if(especie != null){
+		
 		this.IdentifyParte(especie);
 		this.IdentifyFruto(especie.fruto);
 		this.IdentifyHoja(especie.hoja);
 		this.IdentifyNervadura(especie.nervadura);
 		this.AddAxiomstoKBS();
+		manager.saveOntology(knowledgebase);
 		reasoner.precomputeInferences();
 		consistent=reasoner.isConsistent();
-		
+		NodeSet<OWLClass> classes = reasoner.getTypes(factory.getOWLNamedIndividual(this.iridictionary.especie), true);
+	    
 	}
 	return familia;
 }
@@ -375,4 +378,3 @@ private void AddAxiomstoKBS(){
 	}
 }
 };
-
