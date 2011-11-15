@@ -194,10 +194,21 @@ KComponent(String s) throws OWLOntologyCreationException{
 	assertionset = new ArrayList();
 }
 public String Identify(Planta especie){
-	
-	return "";
+	String familia = "";
+	boolean consistent;
+	if(especie != null){
+		this.IdentifyParte(especie);
+		this.IdentifyFruto(especie.fruto);
+		this.IdentifyHoja(especie.hoja);
+		this.IdentifyNervadura(especie.nervadura);
+		this.AddAxiomstoKBS();
+		reasoner.precomputeInferences();
+		consistent=reasoner.isConsistent();
+		
+	}
+	return familia;
 }
-public void IdentifyHoja(Hoja hoja){
+private void IdentifyHoja(Hoja hoja){
 	if(hoja.posicionhoja != null){
 		if(hoja.posicionhoja == "Alterna"){
 		 assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.posiciontipo), factory.getOWLNamedIndividual(iridictionary.hoja),factory.getOWLNamedIndividual(iridictionary.alterna)));
@@ -264,7 +275,7 @@ public void IdentifyHoja(Hoja hoja){
 		}
 	}
 }
-public void IdentifyFruto(Fruto fruto){
+private void IdentifyFruto(Fruto fruto){
 	
 	if(fruto!=null){
 if(fruto.tipofruto=="Alado"){
@@ -309,7 +320,7 @@ if(fruto.tipofruto=="Sincarpos"){
 	}
 	
 }
-public void IdentifyNervadura(String nervadura){
+private void IdentifyNervadura(String nervadura){
 if(nervadura!=null){
 if(nervadura=="Escaleriforme"){
 	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.nervaduratipo), factory.getOWLNamedIndividual(iridictionary.nervadura),factory.getOWLNamedIndividual(iridictionary.escaleriforme)));
@@ -323,7 +334,7 @@ if(nervadura=="Trinervada"){
 }
 }	
 }
-public void IdentifyParte(Planta especie){
+private void IdentifyParte(Planta especie){
 	if(especie.hoja != null){
 		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.hoja)));
 	}
@@ -332,28 +343,35 @@ public void IdentifyParte(Planta especie){
 		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.fruto)));
 	}
 	
-	if(especie.espina != null){
+	if(especie.espina){
 		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.espina)));
 	}
 	
-	if(especie.estipula != null){
+	if(especie.estipula){
 		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.estipula)));
 	}
 	
-	if(especie.olor != null){
+	if(especie.olor){
 		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.olor)));
 	}
 	
-	if(especie.puntot != null){
+	if(especie.puntot){
 		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.punto)));	
 	}
 	
-	if(especie.semilla != null){
+	if(especie.semilla){
 		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.semilla)));	
 	}
 	
 	if(especie.nervadura != null){
 		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.nervadura)));
+	}
+}
+private void AddAxiomstoKBS(){
+	Iterator<OWLAxiom> it = assertionset.iterator();
+	while(it.hasNext()){
+	manager.addAxiom(this.knowledgebase, it.next());
+	System.out.println("a");
 	}
 }
 };
