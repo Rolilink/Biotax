@@ -60,6 +60,7 @@ public IRI monocarpos;
 public IRI nuez;
 public IRI pixidio;
 public IRI sincarpos;
+public IRI drupa;
 //tipos de nervadura
 public IRI trinervada;
 public IRI pinnada;
@@ -119,6 +120,7 @@ IRIdictionary(String r){
   this.nuez= IRI.create(s + "fnuez");
   this.pixidio= IRI.create(s + "fpixidio");
   this.sincarpos= IRI.create(s + "fsincarpos");
+  this.drupa= IRI.create(s + "fdrupa");
   //tipos de nervadura
   this.trinervada = IRI.create(s + "ntrinervada");
   this.pinnada = IRI.create(s + "npinnada");
@@ -262,9 +264,62 @@ public void IdentifyHoja(Hoja hoja){
 }
 public void IdentifyFruto(Fruto fruto){
 	
+	if(fruto!=null){
+if(fruto.tipofruto=="Alado"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.alado)));
+			
+		}
+		
+if(fruto.tipofruto=="Baya"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.baya)));
+	
+		}
+if(fruto.tipofruto=="Capsula"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.capsula)));
+
+}
+if(fruto.tipofruto=="Dicarpos"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.dicarpo)));
+	
+}
+if(fruto.tipofruto=="Drupa"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.drupa)));
+	
+}
+if(fruto.tipofruto=="Foliculo"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.foliculo)));
+}
+if(fruto.tipofruto=="Legumbre"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.legumbre)));
+}
+if(fruto.tipofruto=="Monocarpos"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.monocarpos)));
+}
+if(fruto.tipofruto=="Nuez"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.nuez)));
+}
+if(fruto.tipofruto=="Pixidio"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.pixidio)));
+}
+if(fruto.tipofruto=="Sincarpos"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.frutotipo), factory.getOWLNamedIndividual(iridictionary.fruto),factory.getOWLNamedIndividual(iridictionary.sincarpos)));
+}
+	}
+	
 }
 public void IdentifyNervadura(String nervadura){
-	
+if(nervadura!=null){
+if(nervadura=="Escaleriforme"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.nervaduratipo), factory.getOWLNamedIndividual(iridictionary.nervadura),factory.getOWLNamedIndividual(iridictionary.escaleriforme)));
+}
+if(nervadura=="Pinnada"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.nervaduratipo), factory.getOWLNamedIndividual(iridictionary.nervadura),factory.getOWLNamedIndividual(iridictionary.pinnada)));
+}
+
+if(nervadura=="Trinervada"){
+	assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.nervaduratipo), factory.getOWLNamedIndividual(iridictionary.nervadura),factory.getOWLNamedIndividual(iridictionary.trinervada)));
+}
+}	
 }
 
 };
