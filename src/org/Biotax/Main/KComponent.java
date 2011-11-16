@@ -174,6 +174,8 @@ public class KComponent {
 // Atributos del Componente de conocimiento
 private File file;
 private OWLOntology knowledgebase;
+private OWLOntology temporal;
+private File temp;
 private OWLOntologyManager manager;
 private OWLDataFactory factory;
 private IRIdictionary iridictionary;
@@ -206,8 +208,17 @@ public String Identify(Planta especie) throws OWLOntologyStorageException{
 		manager.saveOntology(knowledgebase);
 		reasoner.precomputeInferences();
 		consistent=reasoner.isConsistent();
+		manager.saveOntology(knowledgebase);
 		NodeSet<OWLClass> classes = reasoner.getTypes(factory.getOWLNamedIndividual(this.iridictionary.especie), true);
-	    
+		Set<OWLClass> classesf = classes.getFlattened();
+		Iterator<OWLClass> classesit = classesf.iterator();
+		while(classesit.hasNext()){
+			OWLClass clase = classesit.next();
+			familia=clase.toString();
+			familia=this.transformtofamilia(familia);
+			
+		}
+		
 	}
 	return familia;
 }
@@ -376,5 +387,11 @@ private void AddAxiomstoKBS(){
 	manager.addAxiom(this.knowledgebase, it.next());
 	System.out.println("a");
 	}
+}
+private String transformtofamilia(String parameter){
+int i = parameter.indexOf('#') + 1;
+int a = parameter.indexOf('>');
+parameter=parameter.substring(i,a);
+return parameter;
 }
 };

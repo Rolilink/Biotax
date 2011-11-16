@@ -24,7 +24,7 @@ import javax.swing.JTextPane;
 
 public class Recolectadatos {
 
-	private JFrame frmBiotax;
+	public JFrame frmBiotax;
 
 	/**
 	 * Launch the application.
@@ -71,7 +71,7 @@ public class Recolectadatos {
 		
 		JComboBox cmbTipohoja = new JComboBox();
 		cmbTipohoja.setForeground(Color.BLACK);
-		cmbTipohoja.setModel(new DefaultComboBoxModel(new String[] {"Simple", "Compuesta", "Desconocido"}));
+		cmbTipohoja.setModel(new DefaultComboBoxModel(new String[] {"Simple", "Compuesta"}));
 		cmbTipohoja.setToolTipText("");
 		cmbTipohoja.setFont(new Font("Dialog", Font.PLAIN, 11));
 		cmbTipohoja.setBackground(Color.WHITE);
@@ -100,14 +100,14 @@ public class Recolectadatos {
 		
 		JComboBox cmbNervadurahoja = new JComboBox();
 		cmbNervadurahoja.setBackground(Color.WHITE);
-		cmbNervadurahoja.setModel(new DefaultComboBoxModel(new String[] {"Escaliforme", "Pinnada", "Trinervada", "Desconocido"}));
+		cmbNervadurahoja.setModel(new DefaultComboBoxModel(new String[] {"Ninguno","Escaliforme", "Pinnada", "Trinervada", "Desconocido"}));
 		cmbNervadurahoja.setFont(new Font("Dialog", Font.PLAIN, 11));
 		cmbNervadurahoja.setBounds(117, 89, 89, 20);
 		frmBiotax.getContentPane().add(cmbNervadurahoja);
 		
 		JComboBox cmbPosicionhoja = new JComboBox();
 		cmbPosicionhoja.setBackground(Color.WHITE);
-		cmbPosicionhoja.setModel(new DefaultComboBoxModel(new String[] {"Alterna", "Opuesta", "Desconocido"}));
+		cmbPosicionhoja.setModel(new DefaultComboBoxModel(new String[] {"No Se", "Alterna", "Opuesta", "Desconocido"}));
 		cmbPosicionhoja.setFont(new Font("Dialog", Font.PLAIN, 11));
 		cmbPosicionhoja.setBounds(117, 114, 89, 20);
 		frmBiotax.getContentPane().add(cmbPosicionhoja);
