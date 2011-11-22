@@ -1403,31 +1403,6 @@
         <Class IRI="http://www.Biotax/Biotax.owl#Roja"/>
         <NamedIndividual IRI="#xroja"/>
     </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
-        <NamedIndividual IRI="#especie"/>
-        <NamedIndividual IRI="#iestipula"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneParte"/>
-        <NamedIndividual IRI="#especie"/>
-        <NamedIndividual IRI="#ihoja"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneBorde"/>
-        <NamedIndividual IRI="#ihoja"/>
-        <NamedIndividual IRI="#bentero"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TieneHoja"/>
-        <NamedIndividual IRI="#ihoja"/>
-        <NamedIndividual IRI="#hsimple"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.Biotax/Biotax.owl#TienePosicion"/>
-        <NamedIndividual IRI="#ihoja"/>
-        <NamedIndividual IRI="#popuesta"/>
-    </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.Biotax/Biotax.owl#EsBorde"/>
         <ObjectProperty abbreviatedIRI=":topObjectProperty"/>

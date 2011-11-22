@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Set;
 import java.util.List;
 import java.util.Iterator;
@@ -13,6 +14,7 @@ import org.semanticweb.owlapi.io.*;
 import org.semanticweb.owlapi.model.*;
 import org.semanticweb.owlapi.apibinding.*;
 import org.semanticweb.owlapi.reasoner.*;
+import org.semanticweb.owlapi.util.OWLEntityRemover;
 
 //Imports del Hermit Reasoner
 import org.semanticweb.HermiT.Reasoner;
@@ -154,7 +156,7 @@ class IRIrelationship{
 	public IRI nervaduratipo;
 	public IRI tieneparte;
 	public IRI posiciontipo;
-	
+	public IRI tiene;
 	IRIrelationship(String r){
 		this.documentiri=IRI.create(r);
 		  String s = r+"#";
@@ -165,6 +167,7 @@ class IRIrelationship{
 			this.nervaduratipo = IRI.create(s + "TieneNervadura");
 			this.tieneparte = IRI.create(s + "TieneParte");
 			this.posiciontipo= IRI.create(s + "TienePosicion");
+			this.tiene= IRI.create(s + "Tiene");
 	}
 }
 
@@ -175,14 +178,14 @@ public class KComponent {
 private File file;
 private OWLOntology knowledgebase;
 private OWLOntology temporal;
-private File temp;
 private OWLOntologyManager manager;
 private OWLDataFactory factory;
 private IRIdictionary iridictionary;
 private OWLReasoner reasoner;
 private IRIrelationship relationship;
 public List<OWLAxiom> assertionset;
-KComponent(String s) throws OWLOntologyCreationException{
+public List<OWLAxiom> removeset;
+public KComponent(String s) throws OWLOntologyCreationException{
 	this.file = new File(s);
 	manager = OWLManager.createOWLOntologyManager();
 	knowledgebase = manager.loadOntologyFromOntologyDocument(file);
@@ -192,18 +195,20 @@ KComponent(String s) throws OWLOntologyCreationException{
 	OWLReasonerFactory reasonerFactory = new Reasoner.ReasonerFactory();
 	ConsoleProgressMonitor progressMonitor = new ConsoleProgressMonitor();
 	OWLReasonerConfiguration config = new SimpleConfiguration(progressMonitor);
-	reasoner = reasonerFactory.createReasoner(knowledgebase, config);
+	reasoner = reasonerFactory.createNonBufferingReasoner(knowledgebase);
 	assertionset = new ArrayList();
+	
 }
 public String Identify(Planta especie) throws OWLOntologyStorageException{
 	String familia = "";
 	boolean consistent;
 	if(especie != null){
-		
+		assertionset = new ArrayList();
 		this.IdentifyParte(especie);
 		this.IdentifyFruto(especie.fruto);
 		this.IdentifyHoja(especie.hoja);
 		this.IdentifyNervadura(especie.nervadura);
+		this.removeset=this.assertionset;
 		this.AddAxiomstoKBS();
 		manager.saveOntology(knowledgebase);
 		reasoner.precomputeInferences();
@@ -220,6 +225,12 @@ public String Identify(Planta especie) throws OWLOntologyStorageException{
 		}
 		
 	}
+	Iterator<OWLAxiom> it = assertionset.iterator();
+	while(it.hasNext()){
+	manager.removeAxiom(this.knowledgebase, it.next());
+	}
+	manager.saveOntology(knowledgebase);
+	
 	return familia;
 }
 private void IdentifyHoja(Hoja hoja){
@@ -366,7 +377,7 @@ private void IdentifyParte(Planta especie){
 	}
 	
 	if(especie.olor){
-		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tieneparte), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.olor)));
+		assertionset.add(factory.getOWLObjectPropertyAssertionAxiom(factory.getOWLObjectProperty(relationship.tiene), factory.getOWLNamedIndividual(iridictionary.especie),factory.getOWLNamedIndividual(iridictionary.olor)));
 	}
 	
 	if(especie.puntot){
@@ -385,7 +396,6 @@ private void AddAxiomstoKBS(){
 	Iterator<OWLAxiom> it = assertionset.iterator();
 	while(it.hasNext()){
 	manager.addAxiom(this.knowledgebase, it.next());
-	System.out.println("a");
 	}
 }
 private String transformtofamilia(String parameter){
@@ -394,4 +404,5 @@ int a = parameter.indexOf('>');
 parameter=parameter.substring(i,a);
 return parameter;
 }
+
 };
